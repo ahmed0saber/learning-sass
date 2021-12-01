@@ -1,0 +1,31 @@
+.p1, .p2, .p3 {
+  font-size: 24px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.p1 {
+  color: #080808;
+  background-color: #ff7f7f;
+}
+
+.p2 {
+  color: #f7f7f7;
+  background-color: maroon;
+}
+
+.p3 {
+  color: #f7f7f7;
+  background-color: #404040;
+}
+
+.p1:hover, .p2:hover, .p3:hover {
+  color: #f7f7f7;
+  background-color: teal;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

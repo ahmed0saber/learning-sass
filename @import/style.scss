@@ -1,0 +1,13 @@
+@import "colors" ;
+@import "fonts" ;
+
+body{
+    background-color: $sec;
+}
+h1{
+    font-family: $font1;
+    color: $pri;
+    background-color: $sec2;
+    padding: 8px;
+    width: fit-content;
+}

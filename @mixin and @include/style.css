@@ -1,0 +1,33 @@
+.first {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #121212;
+  background-color: #e2e2e2;
+  padding: 8px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #f7f7f7;
+  background-color: teal;
+  margin: 2px;
+}
+
+.second {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #121212;
+  background-color: #e2e2e2;
+  padding: 8px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #f7f7f7;
+  background-color: crimson;
+  margin: 10px 2px;
+}
+
+p:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

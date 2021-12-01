@@ -1,0 +1,10 @@
+$fontSizes: ("sm": 16px, "md": 20px, "lg": 24px);
+.p1{
+    font-size: map-get($fontSizes, "sm");
+}
+.p2{
+    font-size: map-get($fontSizes, "md");
+}
+.p3{
+    font-size: map-get($fontSizes, "lg");
+}

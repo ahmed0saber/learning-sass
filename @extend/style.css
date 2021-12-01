@@ -1,0 +1,17 @@
+.p1, .p2 {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #121212;
+  background-color: #e2e2e2;
+  padding: 8px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 6px;
+}
+
+.p2 {
+  color: floralwhite;
+  background-color: darkgoldenrod;
+}
+/*# sourceMappingURL=style.css.map */

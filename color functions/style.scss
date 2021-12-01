@@ -1,0 +1,23 @@
+.p1, .p2, .p3{
+    font-size: 24px;
+    width: fit-content;
+    padding: 8px;
+    transition-duration: 0.3s;
+}
+@mixin colors($color, $bg){
+    color: $color;
+    background-color: $bg;
+}
+.p1{
+    @include colors(invert($color: #f7f7f7), invert($color: teal));
+}
+.p2{
+    @include colors(complement($color: #f7f7f7), complement($color: teal));
+}
+.p3{
+    @include colors(grayscale($color: #f7f7f7), grayscale($color: teal));
+}
+.p1:hover, .p2:hover, .p3:hover{
+    @include colors(#f7f7f7,teal);
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+/*     PARTIAL     */
+/* because the file name begins with _ */
+body {
+  background-color: #e2e2e2;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #121212;
+  background-color: #f7f7f7;
+  padding: 8px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+$priFont: sans-serif;
+$priColor: #121212;
+$secColor: #f7f7f7;
+$subColor: #e2e2e2;
+$shadow: #12121233;
+$priFontSize: 24px;
+$padding: 10px;
+
+body{
+    font-family: $priFont;
+    color: $priColor;
+    background-color: $secColor;
+    font-size: $priFontSize;
+}
+
+section{
+    padding: $padding;
+    width: fit-content;
+    border: 1px solid $shadow;
+    background-color: $subColor;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 1px $shadow;
+}

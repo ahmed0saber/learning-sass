@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    nav{
+        float: right;
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                a{
+                    display: block;
+                    padding: 8px;
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #121212;
+                    background-color: #e2e2e2;
+                    transition-duration: 0.3s;
+                }
+                a:hover{
+                    opacity: 0.7;
+                    color: #e2e2e2;
+                    background-color: #121212;
+                }
+            }
+        }
+    }
+}

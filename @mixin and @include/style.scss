@@ -1,0 +1,28 @@
+@mixin normal-text{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #121212;
+    background-color: #e2e2e2;
+    padding: 8px;
+    width: fit-content;
+}
+@mixin colorize($color, $bg, $margins: 2px){
+    color: $color;
+    background-color: $bg;
+    margin: $margins;
+}
+@mixin hovered{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.first{
+    @include normal-text;
+    @include colorize(#f7f7f7, teal);
+}
+.second{
+    @include normal-text;
+    @include colorize(#f7f7f7, crimson, 10px 2px);
+}
+p:hover{
+    @include hovered;
+}
